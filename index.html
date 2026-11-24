@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d18">
+  <title>دنیای تکنولوژی | فروشگاه دیجیتال</title>
+  <style>
+*{box-sizing:border-box} :root{--navy:#101827;--navy2:#17243a;--blue:#477bff;--cyan:#57d6df;--ink:#172338;--muted:#718096;--line:#e8edf4;--bg:#f7f9fc}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:"Vazirmatn",Tahoma,sans-serif;color:var(--ink);background:#fff;line-height:1.8}.topline{background:#0c1422;color:#cbd5e1;text-align:center;padding:7px 15px;font-size:12px}.topline span{color:#5bd4db;margin:0 12px}.header{height:82px;padding:0 max(calc((100% - 1180px)/2),5%);display:flex;align-items:center;justify-content:space-between;gap:24px;background:#fff;position:sticky;top:0;z-index:20;border-bottom:1px solid #edf0f5}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);white-space:nowrap}.brand b{display:block;font-size:15px;font-weight:900}.brand small{display:block;color:#8792a3;font-size:10px}.brand-mark{width:43px;height:43px;border-radius:14px;background:linear-gradient(140deg,#477bff,#35c6d1);display:grid;place-items:center;color:#fff;font-size:21px;font-weight:900;box-shadow:0 7px 18px #477bff44}.brand-mark span{color:#c7ffff}.desktop-nav{display:flex;align-items:center;gap:23px}.desktop-nav a,.mobile-menu a{font-size:12px;color:#667286;text-decoration:none;font-weight:600;transition:.2s}.desktop-nav a:hover,.desktop-nav a.active{color:#477bff}.header-actions{display:flex;align-items:center;gap:10px}.icon-btn{border:1px solid var(--line);background:#fff;border-radius:12px;width:42px;height:42px;position:relative;font-size:17px;cursor:pointer}.icon-btn i{position:absolute;top:-6px;right:-5px;background:#477bff;color:white;border-radius:20px;font-size:9px;font-style:normal;padding:1px 5px}.login-btn{border:0;border-radius:11px;background:#edf3ff;color:#3769dc;padding:10px 15px;font:700 11px inherit;cursor:pointer}.hamburger{display:none;background:none;border:0;padding:8px}.hamburger span{display:block;width:22px;height:2px;background:#172338;margin:5px}.mobile-menu{display:none;position:fixed;z-index:19;top:82px;right:0;left:0;background:#fff;padding:18px 7%;box-shadow:0 15px 30px #10182718;grid-template-columns:1fr 1fr;gap:15px}.mobile-menu.show{display:grid}.section{max-width:1180px;margin:auto;padding:85px 28px}.hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:560px;gap:40px;padding-top:55px;padding-bottom:60px}.eyebrow{font-size:11px;font-weight:800;color:#477bff;letter-spacing:.2px}.eyebrow i{display:inline-block;width:7px;height:7px;background:#56cfd7;border-radius:50%;margin-left:7px}.hero h1{font-size:clamp(36px,5vw,58px);line-height:1.35;margin:18px 0 15px;font-weight:900;letter-spacing:-2px}.hero h1 em{font-style:normal;color:#477bff}.hero-copy>p,.section-heading p,.address-copy>p{font-size:13px;color:#7b8798;max-width:490px}.hero-actions{display:flex;align-items:center;gap:22px;margin-top:28px}.primary-btn,.light-btn{display:inline-flex;align-items:center;justify-content:center;gap:18px;border:0;border-radius:12px;background:linear-gradient(110deg,#477bff,#35a9db);color:#fff;text-decoration:none;padding:13px 21px;font:700 12px "Vazirmatn";box-shadow:0 9px 22px #477bff35;cursor:pointer}.primary-btn b{font-size:18px}.text-btn{color:#477bff;text-decoration:none;font-size:12px;font-weight:800}.hero-stats{display:flex;gap:36px;margin-top:42px}.hero-stats b{display:block;font-size:18px;color:#172338}.hero-stats small{font-size:10px;color:#8a95a5}.hero-art{height:390px;position:relative;display:grid;place-items:center;isolation:isolate}.glow{position:absolute;width:300px;height:300px;border-radius:50%;background:#477bff1b;filter:blur(28px)}.orbit{position:absolute;border:1px solid #b8caff; border-radius:50%;transform:rotate(-22deg)}.orbit-one{width:440px;height:180px}.orbit-two{width:370px;height:300px;transform:rotate(55deg);border-color:#b8e7e9}.hero-chip{position:absolute;z-index:2;top:35px;left:45px;background:#fff;border:1px solid #e8edf4;border-radius:13px;padding:9px 15px;color:#477bff;font-size:10px;letter-spacing:3px;box-shadow:0 12px 30px #14213a12}.hero-chip b{font-size:15px}.hero-device{position:relative;z-index:2;width:235px;height:235px;transform:perspective(700px) rotateY(-17deg) rotateX(5deg)}.device-screen{position:absolute;inset:0 0 17px;border:9px solid #222d40;border-radius:22px;background:radial-gradient(circle at 70% 20%,#5bdbdf,#2e62ce 42%,#15233d 75%);box-shadow:0 25px 45px #16233b45;overflow:hidden}.screen-shine{position:absolute;width:170px;height:260px;top:-30px;left:-45px;transform:rotate(38deg);background:#ffffff16}.screen-logo{position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-size:60px;font-weight:900;letter-spacing:-8px}.device-base{position:absolute;bottom:0;left:-30px;width:295px;height:17px;border-radius:4px 4px 18px 18px;background:linear-gradient(#aeb9ca,#59677e);box-shadow:0 13px 20px #17233835}.floating-card{position:absolute;z-index:3;display:flex;align-items:center;gap:10px;padding:11px 14px;background:#fff;border:1px solid #edf0f5;border-radius:13px;box-shadow:0 12px 35px #14213a16}.floating-card>span{width:35px;height:35px;border-radius:10px;background:#edf3ff;display:grid;place-items:center;color:#477bff}.floating-card b,.floating-card small{display:block}.floating-card b{font-size:10px}.floating-card small{font-size:9px;color:#929dad}.card-top{right:0;top:90px}.card-bottom{left:0;bottom:65px}.trust-strip{max-width:1124px;margin:0 auto 30px;background:#f7f9fc;border:1px solid #edf1f6;border-radius:18px;padding:22px 28px;display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.trust-strip>div{display:grid;grid-template-columns:38px 1fr;column-gap:10px;align-items:center}.trust-strip span{grid-row:span 2;width:38px;height:38px;background:#fff;border-radius:12px;display:grid;place-items:center}.trust-strip b{font-size:11px}.trust-strip small{font-size:9px;color:#929dad}.products-section{padding-top:70px}.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:25px}.section-heading h2,.address-copy h2{font-size:29px;margin:5px 0;font-weight:900}.section-heading p{margin:0}.toolbar{display:flex;gap:12px;margin-bottom:22px}.searchbox{height:45px;border:1px solid var(--line);border-radius:11px;display:flex;align-items:center;gap:10px;padding:0 14px;flex:1}.searchbox span{font-size:25px;color:#477bff}.searchbox input{border:0;outline:0;width:100%;font:12px "Vazirmatn"}.toolbar select{border:1px solid var(--line);border-radius:11px;padding:0 15px;background:#fff;color:#667286;font:11px "Vazirmatn"}.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.product-card{border:1px solid #edf0f5;border-radius:17px;padding:15px;transition:.25s;background:#fff}.product-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px #14213a10}.product-image{height:175px;border-radius:12px;background:linear-gradient(140deg,#f3f6fc,#e9eff9);display:grid;place-items:center;position:relative;overflow:hidden}.product-image img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}.product-image .emoji-product{font-size:75px;filter:drop-shadow(0 12px 10px #17233820)}.tag{position:absolute;top:11px;right:11px;background:#e9f9f5;color:#169b7b;border-radius:20px;padding:3px 9px;font-size:9px;font-weight:800}.product-card h3{font-size:13px;margin:13px 0 3px}.product-card p{font-size:10px;color:#8792a3;margin:0 0 13px}.product-bottom{display:flex;align-items:center;justify-content:space-between}.price{font-size:14px;font-weight:900}.price small{font-size:9px;color:#8792a3;font-weight:500}.add-btn{border:0;background:#edf3ff;color:#477bff;border-radius:9px;padding:8px 12px;font:700 10px "Vazirmatn";cursor:pointer}.discount-section{padding-top:20px;padding-bottom:60px}.discount-banner{min-height:260px;border-radius:24px;padding:40px 55px;background:radial-gradient(circle at 78% 30%,#284b8e,#172b4e 48%,#111d32);display:flex;align-items:center;justify-content:space-between;overflow:hidden;color:#fff;position:relative}.eyebrow.light{color:#8ce3e6}.discount-banner h2{font-size:34px;line-height:1.4;margin:8px 0}.discount-banner p{font-size:12px;color:#c2cde0}.light-btn{background:#fff;color:#254c9d;margin-top:13px;box-shadow:none}.discount-visual{width:210px;height:180px;border:1px solid #8db4ff55;border-radius:50%;display:grid;place-items:center;align-content:center;transform:rotate(-12deg);box-shadow:0 0 0 22px #ffffff08,0 0 0 44px #ffffff05}.discount-visual b{font-size:42px;line-height:1;color:#fff;letter-spacing:4px}.discount-visual small{letter-spacing:6px;color:#8ce3e6}.percent{position:absolute;top:15px;right:22px;font-size:22px;color:#8ce3e6}.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding-top:20px;padding-bottom:70px}.info-card{border:1px solid var(--line);border-radius:19px;padding:27px;background:#fbfcfe}.info-icon{width:45px;height:45px;background:#edf3ff;border-radius:13px;display:grid;place-items:center;font-size:20px;margin-bottom:17px}.info-card h2{font-size:20px;margin:4px 0}.info-card p{font-size:11px;color:#7d899a;max-width:380px}.info-card>a,.inline-link{color:#477bff;text-decoration:none;font:800 11px "Vazirmatn";border:0;background:none;padding:0;cursor:pointer}.warranty-card{background:linear-gradient(135deg,#f3fbfc,#f8faff)}.address-section{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;padding-top:35px;padding-bottom:90px;align-items:center}.contact-line{display:flex;gap:13px;align-items:center;margin-top:19px}.contact-line>span{width:38px;height:38px;display:grid;place-items:center;background:#edf3ff;color:#477bff;border-radius:11px;font-size:20px}.contact-line b,.contact-line small{display:block}.contact-line b{font-size:11px}.contact-line small{font-size:10px;color:#8792a3}.map-card{height:300px;border-radius:20px;background:#edf3f5;position:relative;overflow:hidden}.map-grid{position:absolute;inset:0;background-image:linear-gradient(#d8e2e4 1px,transparent 1px),linear-gradient(90deg,#d8e2e4 1px,transparent 1px);background-size:35px 35px;transform:rotate(-8deg) scale(1.2)}.map-road{position:absolute;background:#fff;border:5px solid #dce5e7;border-left:0;border-right:0}.road-a{width:130%;height:50px;top:45%;right:-10%;transform:rotate(-17deg)}.road-b{width:65%;height:38px;top:30%;right:15%;transform:rotate(54deg)}.map-pin{position:absolute;top:36%;left:48%;width:48px;height:48px;border-radius:50% 50% 50% 5px;transform:rotate(-45deg);background:#477bff;color:#fff;display:grid;place-items:center;font-size:24px;box-shadow:0 8px 18px #477bff55}.map-pin::first-letter{transform:rotate(45deg)}.map-label{position:absolute;top:60%;left:38%;background:#fff;border-radius:10px;padding:8px 13px;font-size:10px;font-weight:800;box-shadow:0 7px 20px #17233816}.map-label small{display:block;color:#8792a3;font-weight:500}.footer{background:#101827;color:#fff;padding:45px max(calc((100% - 1124px)/2),5%) 0}.footer-brand{color:#fff}.footer-main>p{font-size:11px;color:#9eacc0;margin:20px 0}.socials{display:flex;gap:9px}.socials a{width:32px;height:32px;border-radius:9px;background:#202e44;color:#9bc0ff;text-decoration:none;display:grid;place-items:center}.footer-bottom{border-top:1px solid #ffffff18;margin-top:35px;padding:17px 0;display:flex;justify-content:space-between;color:#8593a8;font-size:9px}.modal{border:0;border-radius:20px;padding:30px;width:min(430px,calc(100% - 30px));box-shadow:0 25px 80px #08132655;font-family:"Vazirmatn"}.modal::backdrop{background:#0b1526a8;backdrop-filter:blur(4px)}.modal form{position:relative}.modal-close{position:absolute;left:0;top:-10px;border:0;background:#f1f4f8;border-radius:50%;width:30px;height:30px;font-size:20px;cursor:pointer}.modal h2{font-size:21px;margin:8px 0}.modal p,.modal li{font-size:11px;color:#7b8798}.modal label{display:block;font-size:11px;margin-top:14px}.modal input{display:block;width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;margin-top:6px;font:12px "Vazirmatn"}.full-btn{width:100%;margin-top:18px}.warranty-list{padding-right:20px}.cart-items{font-size:12px;color:#68768a;padding:15px 0}.cart-row{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:8px 0}.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#17243a;color:#fff;padding:10px 18px;border-radius:10px;font-size:11px;z-index:50;transition:.25s}.toast.show{opacity:1;transform:translate(-50%,0)}.empty{grid-column:1/-1;text-align:center;color:#8792a3;padding:35px}
+@media(max-width:1000px){.desktop-nav{gap:12px}.desktop-nav a{font-size:10px}.header{padding:0 3%}.hero{gap:10px}.section{padding-left:5%;padding-right:5%}.trust-strip{margin-left:5%;margin-right:5%}}
+@media(max-width:760px){.desktop-nav,.login-btn{display:none}.hamburger{display:block}.header{height:70px}.mobile-menu{top:70px}.hero{grid-template-columns:1fr;padding-top:45px;text-align:center}.hero-copy>p{margin:auto}.hero-actions,.hero-stats{justify-content:center}.hero-art{height:330px;order:-1}.hero-device{transform:scale(.8) perspective(700px) rotateY(-17deg)}.card-top{right:3%;top:55px}.card-bottom{left:2%;bottom:35px}.hero-chip{left:8%;top:25px}.trust-strip{grid-template-columns:1fr 1fr;padding:18px}.section-heading{align-items:start;gap:10px}.section-heading h2,.address-copy h2{font-size:24px}.product-grid{grid-template-columns:1fr 1fr}.product-image{height:140px}.discount-banner{padding:30px;min-height:250px}.discount-visual{width:140px;height:140px;flex-shrink:0}.discount-visual b{font-size:29px}.discount-banner h2{font-size:27px}.info-grid{grid-template-columns:1fr}.address-section{grid-template-columns:1fr;gap:25px}.map-card{height:250px}.footer-bottom{gap:8px;flex-direction:column}.section{padding-top:60px;padding-bottom:60px}}
+@media(max-width:430px){.product-grid{grid-template-columns:1fr}.product-image{height:190px}.toolbar{flex-direction:column}.toolbar select{height:42px}.hero-stats{gap:18px}.hero-stats b{font-size:15px}.discount-visual{width:100px;height:100px}.discount-visual b{font-size:22px}.discount-visual small{font-size:8px;letter-spacing:3px}.discount-banner{padding:24px 18px}.discount-banner h2{font-size:23px}}
+
+  
+/* ===== Dark midnight theme + bright blue controls ===== */
+:root{
+  color-scheme:dark;
+  --navy:#080d18;--navy2:#111c30;--blue:#69a7ff;--cyan:#55d9ee;
+  --ink:#edf4ff;--muted:#9aabc3;--line:#263750;--bg:#080d18
+}
+html,body{background:#080d18!important;color:#edf4ff!important}
+body{background:radial-gradient(ellipse at 50% 0%,#142642 0%,#080d18 48%,#070b14 100%)!important}
+.topline{background:#050912!important;color:#c8d7ee}
+.header{background:#0b1322!important;border-color:#1d2b42!important}
+.brand,.brand b,.hero h1,.section-heading h2,.address-copy h2,
+.product-card h3,.info-card h2,.price,.modal h2,.modal label{color:#edf4ff!important}
+.brand small,.hero-copy>p,.section-heading p,.address-copy>p,
+.product-card p,.info-card p,.modal p,.modal li,.cart-items,
+.cart-row,.empty,.hero-stats small,.floating-card small,
+.contact-line small,.footer-bottom{color:#9aabc3!important}
+.desktop-nav a,.mobile-menu a{color:#b7c7df!important}
+.desktop-nav a:hover,.desktop-nav a.active,.text-btn,
+.info-card>a,.inline-link{color:#83b8ff!important}
+.hamburger span{background:#dceaff!important}
+.icon-btn,.searchbox,.toolbar select,.product-card,.info-card,
+.modal,.mobile-menu{background:#111c30!important;border-color:#293c59!important;color:#edf4ff!important}
+.icon-btn{border-color:#2b4263!important}
+.mobile-menu{box-shadow:0 18px 35px #0009!important}
+.login-btn,.add-btn,.info-icon,.floating-card>span,
+.contact-line>span,.modal-close{background:#1c3c68!important;color:#91c5ff!important}
+.searchbox input,.toolbar select,.modal input{background:#0b1424!important;color:#edf4ff!important}
+.searchbox input::placeholder,.modal input::placeholder{color:#8498b5}
+.product-image{background:linear-gradient(145deg,#1b2b43,#101a2c)!important}
+.product-image img{mix-blend-mode:normal!important}
+.tag{background:#123c3d!important;color:#72e6d7!important}
+.product-card:hover{box-shadow:0 18px 38px #0007!important}
+.trust-strip{background:#101b2d!important;border-color:#263750!important}
+.trust-strip>div{color:#e5efff}
+.trust-strip span{background:#1a3151!important;color:#8fc3ff!important}
+.hero-chip,.floating-card{background:#111d31!important;border-color:#2b3d59!important;color:#91c3ff!important;box-shadow:0 15px 35px #0005!important}
+.floating-card b{color:#edf4ff!important}
+.hero-stats b{color:#edf4ff!important}
+.glow{background:#3d8bff2b!important}
+.orbit{border-color:#42658f!important}
+.orbit-two{border-color:#2d777e!important}
+.device-screen{border-color:#101a2a!important}
+.device-base{background:linear-gradient(#647b9b,#273b58)!important}
+.info-card{background:#111c30!important}
+.warranty-card{background:linear-gradient(135deg,#102c39,#111c30)!important}
+.map-card{background:#14243a!important}
+.map-grid{background-image:linear-gradient(#2b4057 1px,transparent 1px),linear-gradient(90deg,#2b4057 1px,transparent 1px)!important}
+.map-road{background:#263b55!important;border-color:#3b526d!important}
+.map-label{background:#101c30!important;color:#edf4ff!important}
+.map-label small{color:#9aabc3!important}
+.footer{background:#050a13!important}
+.footer .brand{color:#fff!important}
+.modal{color:#edf4ff!important;box-shadow:0 25px 80px #000b!important}
+.modal input{border-color:#304765!important}
+.modal-close{background:#1d3555!important;color:#a8ceff!important}
+.toast{background:#1d4c87!important;color:#fff!important;box-shadow:0 10px 30px #0008}
+.primary-btn,.light-btn{background:linear-gradient(110deg,#438cff,#36c5e8)!important;color:#061426!important;box-shadow:0 10px 28px #258bff44!important}
+.primary-btn:hover,.light-btn:hover,.add-btn:hover,.login-btn:hover{filter:brightness(1.12)}
+.discount-banner{background:radial-gradient(circle at 78% 30%,#245ca7,#142b50 48%,#0b172b)!important}
+.light-btn{background:linear-gradient(110deg,#83baff,#55d9ee)!important;color:#071426!important}
+::selection{background:#347fe8;color:#fff}
+
+
+/* ===== Multi-page menu navigation ===== */
+main > section{display:none!important}
+main > section.view-active{display:block!important}
+main > section#home.view-active{display:grid!important}
+main > section#agencies.view-active{display:grid!important}
+main > section#address.view-active{display:grid!important}
+main > section.trust-strip.view-active{display:grid!important}
+#agencies .info-card{display:none}
+#agencies.show-agency .agency-card{display:block}
+#agencies.show-warranty .warranty-card{display:block}
+#viewToolbar{max-width:1180px;margin:0 auto;padding:25px 28px 0;display:flex;align-items:center;justify-content:space-between;gap:15px}
+#viewToolbar[hidden]{display:none!important}
+#viewToolbar h1{margin:0;color:#edf4ff;font-size:clamp(21px,4vw,30px);font-weight:900}
+#viewToolbar p{margin:3px 0 0;color:#9aabc3;font-size:11px}
+#viewToolbar button{border:1px solid #34547c;background:#142b49;color:#9bcaff;border-radius:12px;padding:10px 15px;font:700 11px Tahoma,sans-serif;cursor:pointer;white-space:nowrap}
+#viewToolbar button:active{transform:scale(.98)}
+@media(max-width:700px){
+  #viewToolbar{padding:22px 6% 0}
+  #viewToolbar button{padding:9px 11px}
+  main > section#agencies.view-active{display:block!important}
+  main > section#address.view-active{display:grid!important}
+}
+
+
+/* ===== Smooth vertical hamburger menu ===== */
+.mobile-menu{
+  display:grid!important;
+  grid-template-columns:1fr!important;
+  gap:0!important;
+  padding:10px 7% 16px!important;
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+  transform:translateY(-14px);
+  transform-origin:top center;
+  transition:opacity .28s ease,transform .32s cubic-bezier(.2,.8,.2,1),visibility .28s;
+  max-height:calc(100vh - 100px);
+  overflow-y:auto;
+  border:1px solid #263b58;
+  border-top:0;
+  border-radius:0 0 18px 18px;
+}
+.mobile-menu.show{
+  opacity:1;
+  visibility:visible;
+  pointer-events:auto;
+  transform:translateY(0);
+}
+.mobile-menu a{
+  display:flex;
+  align-items:center;
+  min-height:45px;
+  padding:8px 5px;
+  border-bottom:1px solid #263750;
+  opacity:0;
+  transform:translateY(-7px);
+  transition:opacity .22s ease,transform .25s ease,color .2s ease,background .2s ease;
+}
+.mobile-menu.show a{opacity:1;transform:translateY(0)}
+.mobile-menu.show a:nth-child(1){transition-delay:.03s}
+.mobile-menu.show a:nth-child(2){transition-delay:.06s}
+.mobile-menu.show a:nth-child(3){transition-delay:.09s}
+.mobile-menu.show a:nth-child(4){transition-delay:.12s}
+.mobile-menu.show a:nth-child(5){transition-delay:.15s}
+.mobile-menu.show a:nth-child(6){transition-delay:.18s}
+.mobile-menu a:last-child{border-bottom:0}
+.hamburger span{transition:transform .28s ease,opacity .2s ease;transform-origin:center}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0;transform:scaleX(.3)}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.contact-line{transition:transform .22s ease,border-color .22s ease}
+.contact-line:hover{transform:translateX(-4px)}
+@media(max-width:700px){
+  .mobile-menu{right:0;left:0;top:82px}
+}
+
+
+/* Dedicated warranty page, based on the supplied hand-drawn layout */
+.warranty-page{display:none;min-height:calc(100vh - 150px);padding-top:38px;padding-bottom:55px}
+.warranty-page.view-active{display:block!important}
+.warranty-page-inner{max-width:850px;margin:0 auto;background:linear-gradient(145deg,#111b2c,#0b1423);border:1px solid #263a5b;border-radius:24px;padding:34px clamp(20px,5vw,58px);color:#e8f0ff;box-shadow:0 24px 60px #08132630}
+.warranty-heading{display:flex;justify-content:center;margin:0 auto 35px}
+.warranty-heading span{min-width:210px;text-align:center;border:1px solid #477bff;border-radius:999px;padding:8px 35px;color:#8fcaff;font-size:19px;font-weight:900;box-shadow:0 0 25px #477bff20}
+.warranty-company,.warranty-why,.warranty-owner{text-align:right;margin:0 0 30px}
+.warranty-company h2,.warranty-why h2,.warranty-owner h2{font-size:clamp(17px,2.5vw,21px);color:#83b8ff;margin:0 0 13px;font-weight:900}
+.warranty-company p,.warranty-why p,.warranty-owner p{font-size:13px;line-height:2.25;color:#c0ccdf;margin:6px 0}
+.warranty-company{padding-bottom:22px;border-bottom:1px dashed #496080}
+.warranty-why{padding-bottom:22px;border-bottom:1px dashed #496080}
+.warranty-owner{margin-bottom:23px}
+.warranty-heart{text-align:center;color:#8fcaff;font-size:17px;font-weight:800;margin:28px 0 23px}
+.warranty-socials{display:flex;justify-content:center;align-items:center;gap:13px;flex-wrap:wrap;margin:0 auto 26px}
+.warranty-socials a{width:48px;height:42px;display:grid;place-items:center;border:1px solid #477bff88;border-radius:11px;background:#172b49;color:#8fcaff;text-decoration:none;font-size:21px;font-weight:900;transition:.25s}
+.warranty-socials a:hover{transform:translateY(-4px);background:#477bff;color:white;box-shadow:0 8px 22px #477bff44}
+.warranty-copyright{text-align:center;border-top:1px solid #ffffff20;padding-top:18px;color:#9baac0;font-size:12px}
+@media(max-width:650px){.warranty-page{padding:24px 14px 38px}.warranty-page-inner{padding:26px 19px;border-radius:18px}.warranty-heading{margin-bottom:28px}.warranty-heading span{min-width:175px}.warranty-company p,.warranty-why p,.warranty-owner p{font-size:12px}.warranty-socials{gap:9px}.warranty-socials a{width:43px;height:40px}}
+
+
+/* Login / registration demo */
+.auth-modal{background:#101b2e!important;color:#edf4ff!important}
+.auth-modal h2{font-size:25px;letter-spacing:.2px}
+.auth-modal label{color:#dce8fb}
+.auth-modal input{background:#091323!important;border:1px solid #2d4568!important;color:#f4f8ff!important}
+.auth-modal input:focus{outline:2px solid #477bff66;border-color:#70a8ff!important}
+.auth-link{border:0;background:none;color:#8fc4ff;font:700 11px Tahoma,sans-serif;cursor:pointer;padding:5px 0}
+.auth-switch{text-align:center;margin:17px 0 0}
+.auth-note{border-top:1px solid #293d5c;padding-top:12px;margin:18px 0 0!important;font-size:9px!important;color:#8297b5!important}
+.robot-check{display:flex!important;align-items:center;gap:9px;margin-top:18px!important;padding:12px;border:1px solid #2d4568;border-radius:10px;background:#0b1628}
+.robot-check input{width:18px!important;height:18px;margin:0!important;accent-color:#477bff}
+.robot-check small{color:#8194b0;font-size:9px}
+#registerPanel[hidden],#loginPanel[hidden]{display:none!important}
+#loginBtn.signed-in{max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background:#123b43!important;color:#83e4d5!important}
+@media(max-width:700px){.auth-modal{padding:25px 20px}}
+
+
+/* Account avatar and profile panel */
+.profile-btn{display:grid!important;place-items:center;width:46px;height:46px;min-width:46px;padding:0!important;border-radius:50%!important;border:2px solid #d9e8ff!important;background:linear-gradient(145deg,#477bff,#35c6d1)!important;color:#fff!important;font:900 19px Tahoma,sans-serif!important;box-shadow:0 7px 18px #477bff30;overflow:hidden;transition:transform .22s,box-shadow .22s}
+.profile-btn:hover{transform:translateY(-2px) scale(1.04);box-shadow:0 10px 24px #477bff45}
+.profile-btn img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.profile-btn #profileAvatarMark{display:grid;place-items:center;width:100%;height:100%}
+.profile-modal{background:#101b2e!important;color:#edf4ff!important}
+.profile-modal h2{color:#f2f7ff}
+.profile-modal label{color:#dce8fb}
+.profile-modal input:not([type=file]){background:#091323!important;border:1px solid #2d4568!important;color:#f4f8ff!important}
+.profile-modal input:disabled{opacity:.65}
+.profile-preview-wrap{display:flex;flex-direction:column;align-items:center;gap:10px;margin:18px 0 20px}
+.profile-preview{width:94px;height:94px;border-radius:50%;display:grid;place-items:center;overflow:hidden;background:linear-gradient(145deg,#477bff,#35c6d1);border:3px solid #8fc4ff;color:white;font-size:36px;font-weight:900;box-shadow:0 10px 28px #477bff30}
+.profile-preview img{width:100%;height:100%;object-fit:cover}
+.avatar-upload-btn{display:inline-block!important;margin:0!important;padding:8px 14px;border-radius:9px;background:#1b3151;color:#9ccaff!important;cursor:pointer;font-size:10px!important;font-weight:800}
+.profile-logout{width:100%;margin-top:12px;padding:11px;border:1px solid #704052;border-radius:10px;background:#301b2b;color:#ffb7c8;font:700 11px Tahoma,sans-serif;cursor:pointer}
+@media(max-width:760px){.header-actions .profile-btn{display:grid!important;width:40px;height:40px;min-width:40px}.header-actions{gap:8px}}
+
+</style>
+
+<style>
+/* Compact animated promotional bar */
+#adNotice{position:fixed;z-index:99999;top:14px;left:50%;width:min(560px,calc(100% - 24px));direction:rtl;opacity:0;visibility:hidden;pointer-events:none;transform:translate(-50%,-22px) scale(.985);transition:opacity .32s ease,transform .42s cubic-bezier(.2,.8,.2,1),visibility .32s ease}
+#adNotice.ad-visible{opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0) scale(1)}
+#adNotice .ad-card{position:relative;display:flex;align-items:center;gap:12px;min-height:78px;padding:10px 44px 10px 12px;border:1px solid rgba(116,166,255,.3);border-radius:16px;background:linear-gradient(110deg,#14233d 0%,#0b1425 72%);color:#f7faff;box-shadow:0 12px 34px rgba(0,0,0,.28);overflow:hidden}
+#adNotice .ad-art{flex:0 0 54px;width:54px;height:54px;display:grid;place-items:center;border-radius:12px;background:radial-gradient(circle at 30% 20%,#45d6e8,#397cff 55%,#182c70);box-shadow:inset 0 0 0 1px #ffffff25}
+#adNotice .ad-art svg{width:46px;height:42px}
+#adNotice .ad-content{flex:1;min-width:0;text-align:right;line-height:1.55}
+#adNotice .ad-label{display:block;color:#8fc0ff;font-size:9px;font-weight:800;margin-bottom:2px}
+#adNotice .ad-content h3{margin:0 0 2px;font-size:13px;line-height:1.5;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#adNotice .ad-content p{margin:0;color:#aebbd0;font-size:10px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#adNotice .ad-action{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:8px 11px;border-radius:9px;background:linear-gradient(100deg,#397cff,#27b6d6);color:#fff;text-decoration:none;font-weight:800;font-size:10px;white-space:nowrap}
+#adNotice .ad-close{position:absolute;z-index:2;top:7px;right:7px;width:25px;height:25px;border:1px solid rgba(255,255,255,.14);border-radius:8px;background:rgba(5,12,25,.65);color:white;font-size:18px;line-height:1;cursor:pointer;transition:background .2s,transform .2s}
+#adNotice .ad-close:hover{background:#347cff;transform:rotate(90deg)}
+@media(max-width:420px){#adNotice .ad-card{gap:8px;padding-left:9px;min-height:70px}#adNotice .ad-art{flex-basis:43px;width:43px;height:43px}#adNotice .ad-art svg{width:38px}#adNotice .ad-content h3{font-size:11px}#adNotice .ad-content p{font-size:9px}#adNotice .ad-action{font-size:9px;padding:7px 8px}}
+@media(prefers-reduced-motion:reduce){#adNotice,#adNotice .ad-close{transition:none}}
+</style>
+
+</head>
+<body>
+
+<!-- Demonstration-only rotating company promotion -->
+<div id="adNotice" aria-hidden="true">
+ <div class="ad-card">
+  <button class="ad-close" id="adNoticeClose" type="button" aria-label="بستن تبلیغ">×</button>
+  <div class="ad-art" aria-hidden="true">
+   <svg viewBox="0 0 360 190" xmlns="http://www.w3.org/2000/svg">
+    <defs><linearGradient id="adScreen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#46d6e8"/><stop offset=".52" stop-color="#397cff"/><stop offset="1" stop-color="#182c70"/></linearGradient><filter id="adGlow"><feGaussianBlur stdDeviation="9"/></filter></defs>
+    <circle cx="180" cy="94" r="75" fill="#438cff" opacity=".16" filter="url(#adGlow)"/>
+    <rect x="91" y="28" width="178" height="116" rx="13" fill="#050a14" stroke="#8198bd" stroke-width="4"/>
+    <rect x="100" y="37" width="160" height="98" rx="7" fill="url(#adScreen)"/>
+    <path d="M100 112 175 37h85v98H100Z" fill="#fff" opacity=".08"/>
+    <text x="180" y="101" text-anchor="middle" font-size="43" font-weight="800" fill="white" font-family="Arial,sans-serif">DT</text>
+    <path d="M75 150h210l-17 12H92Z" fill="#9eb2ce"/><path d="M143 150h74l-7 5h-60Z" fill="#536987"/>
+    <circle cx="58" cy="54" r="17" fill="#182d4d" stroke="#5a9dff"/><path d="m58 43 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z" fill="#8edfff"/>
+    <circle cx="304" cy="118" r="13" fill="#153b5d" stroke="#5de0e2"/><path d="M298 118h12m-6-6v12" stroke="#8cf4f2" stroke-width="2" stroke-linecap="round"/>
+   </svg>
+  </div>
+  <div class="ad-content">
+   <span class="ad-label">✦ تبلیغات شرکت دنیای تکنولوژی</span>
+   <h3 id="adNoticeTitle">یک پیشنهاد تازه برای شما!</h3>
+   <p id="adNoticeText">برای آشنایی با خدمات و پیشنهادهای ویژه دنیای تکنولوژی، همراه ما باشید.</p>
+   <a class="ad-action" id="adNoticeAction" href="#home">مشاهده پیشنهاد</a>
+   <div class="ad-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+  </div>
+ </div>
+</div>
+
+  <div class="topline">ارسال رایگان برای سفارش‌های بالای ۵ میلیون تومان <span>✦</span> پشتیبانی همه‌روزه</div>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="صفحه اصلی">
+      <span class="brand-mark">D<span>T</span></span>
+      <span><b>دنیای تکنولوژی</b><small>انتخاب هوشمندانه، خرید مطمئن</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="منوی اصلی">
+      <a class="active" href="#home">خانه</a>
+      <a href="#products">محصولات</a>
+      <a href="#discounts">تخفیف‌ها</a>
+      <a href="#agencies">نمایندگی‌ها</a>
+      <a href="#warranty">گارانتی</a>
+      <a href="#address">آدرس ما</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn cart-btn" id="cartBtn" aria-label="سبد خرید">🛒<i id="cartCount">۰</i></button>
+      <button class="login-btn profile-btn" id="loginBtn" type="button" aria-label="ورود یا پروفایل"><span id="profileAvatarMark">♙</span></button>
+      <button class="hamburger" id="hamburger" aria-label="باز کردن منو" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">خانه</a><a href="#products">محصولات</a><a href="#discounts">محصولات تخفیف‌دار</a>
+    <a href="#agencies">نمایندگی‌ها</a><a href="#warranty">گارانتی</a><a href="#address">آدرس</a>
+  </div>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><i></i> دنیای انتخاب‌های هوشمند</span>
+        <h1>فناوری، یک قدم<br><em>جلوتر از همیشه</em></h1>
+        <p>از قطعات قدرتمند کامپیوتر تا لوازم دیجیتال روز؛ محصول مورد علاقه‌ات را با خیال راحت پیدا کن.</p>
+        <div class="hero-actions"><a class="primary-btn" href="#products">مشاهده محصولات <b>←</b></a><a class="text-btn" href="#warranty">شرایط گارانتی</a></div>
+        <div class="hero-stats"><div><b>۱۲۰۰+</b><small>محصول متنوع</small></div><div><b>۲۴/۷</b><small>پشتیبانی آنلاین</small></div><div><b>۱۰۰٪</b><small>خرید مطمئن</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="glow"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-chip">TECH<br><b>WORLD</b></div>
+        <div class="floating-card card-top"><span>⚡</span><div><b>عملکرد سریع</b><small>تجربه‌ای متفاوت</small></div></div>
+        <div class="floating-card card-bottom"><span>✓</span><div><b>ضمانت اصالت</b><small>با خیال راحت خرید کن</small></div></div>
+        <div class="hero-device"><div class="device-screen"><div class="screen-shine"></div><div class="screen-logo">DT</div></div><div class="device-base"></div></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span>🚚</span><b>ارسال سریع</b><small>به سراسر کشور</small></div><div><span>🛡️</span><b>ضمانت اصالت</b><small>کالای اصل و معتبر</small></div>
+      <div><span>🎧</span><b>پشتیبانی تخصصی</b><small>پاسخ‌گوی پرسش‌های شما</small></div><div><span>↩️</span><b>۷ روز ضمانت</b><small>فرصت بررسی کالا</small></div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading"><div><span class="eyebrow">ویترین فروشگاه</span><h2>محصولات پرطرفدار</h2><p>تجهیزات مورد نیازت را از میان محصولات منتخب پیدا کن.</p></div><a href="#products" class="text-btn">همه محصولات ←</a></div>
+      <div class="toolbar"><label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="نام محصول را جست‌وجو کن..."></label><select id="categoryFilter" aria-label="دسته‌بندی"><option value="all">همه دسته‌ها</option><option value="cpu">پردازنده</option><option value="gpu">کارت گرافیک</option><option value="accessory">لوازم جانبی</option></select></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="discount-section section" id="discounts">
+      <div class="discount-banner"><div><span class="eyebrow light">فرصت محدود خرید</span><h2>تخفیف‌های داغ<br>دنیای تکنولوژی</h2><p>محصولات منتخب با قیمت‌های ویژه؛ فرصت رو از دست نده!</p><a href="#products" class="light-btn">دیدن پیشنهادها ←</a></div><div class="discount-visual"><span class="percent">٪</span><b>SALE</b><small>OFFERS</small></div></div>
+    </section>
+
+    <section class="section info-grid" id="agencies">
+      <article class="info-card agency-card"><div class="info-icon">📍</div><span class="eyebrow">همیشه نزدیک شما</span><h2>نمایندگی‌های ما</h2><p>برای دریافت مشاوره و خرید حضوری، از اطلاعات نمایندگی‌ها استفاده کنید.</p><a href="#address">مشاهده اطلاعات تماس ←</a></article>
+      <article class="info-card warranty-card" id="warranty-preview"><div class="info-icon">🛡️</div><span class="eyebrow">خرید با آرامش خیال</span><h2>گارانتی و خدمات</h2><p>ما در کنار شما هستیم؛ شرایط ضمانت و خدمات پس از فروش را پیش از خرید بررسی کنید.</p><a class="inline-link" href="#warranty">مشاهده صفحه گارانتی ←</a></article>
+    </section>
+
+
+    <section class="section warranty-page" id="warranty">
+      <div class="warranty-page-inner">
+        <div class="warranty-heading"><span>گارانتی</span></div>
+
+        <div class="warranty-company">
+          <h2>شرکت دنیای تکنولوژی</h2>
+          <p>در دنیای تکنولوژی، رضایت و اعتماد مشتریان برای ما اهمیت ویژه‌ای دارد.</p>
+          <p>ما تلاش می‌کنیم محصولات باکیفیت و خدماتی مطمئن در اختیار شما قرار دهیم.</p>
+          <p>هدف ما همراهی شما، از زمان انتخاب محصول تا دریافت خدمات پس از فروش است.</p>
+        </div>
+
+        <div class="warranty-why">
+          <h2>چرا این گارانتی مهم است؟</h2>
+          <p>گارانتی، اطمینان خاطر شما پس از خرید است؛ تا در صورت بروز مشکل بتوانید از پشتیبانی و خدمات مربوط به محصول خود استفاده کنید.</p>
+          <p>با ارائه خدمات پاسخ‌گو و پیگیری درخواست‌ها، تلاش می‌کنیم تجربه‌ای مطمئن از خرید برای شما فراهم کنیم.</p>
+          <p>شرایط و مدت ضمانت هر محصول، متناسب با مشخصات همان کالا اعلام می‌شود.</p>
+        </div>
+
+        <div class="warranty-owner">
+          <h2>صاحب شرکت: آقای حسین قاسمی</h2>
+          <p>دارای سابقه کاری و تجربه در حوزه فناوری و تجهیزات دیجیتال</p>
+          <p>با هدف ارائه خدمات بهتر و جلب اعتماد مشتریان</p>
+        </div>
+
+        <div class="warranty-heart">♡ رضایت شما، افتخار ماست ♡</div>
+
+        <div class="warranty-socials" aria-label="راه‌های ارتباطی">
+          <a href="#address" aria-label="وب‌سایت">M</a>
+          <a href="#address" aria-label="تماس تلفنی">♧</a>
+          <a href="#address" aria-label="یوتیوب">▷</a>
+          <a href="#address" aria-label="تلگرام">➤</a>
+          <a href="#address" aria-label="اینستاگرام">◎</a>
+        </div>
+
+        <div class="warranty-copyright">© تمامی حقوق محفوظ است.</div>
+      </div>
+    </section>
+
+    <section class="section address-section" id="address">
+      <div class="address-copy"><span class="eyebrow">راه‌های ارتباطی</span><h2>به ما سر بزنید!</h2><p>برای دریافت راهنمایی بیشتر یا مراجعه حضوری، از راه‌های ارتباطی زیر استفاده کنید.</p><div class="contact-line"><span>⌖</span><div><b>نشانی فروشگاه</b><small>نرسیده به مدرسه مولای متقیان، اندیشه ۸۳، خیابان قاسمی</small></div></div><div class="contact-line"><span>👔</span><div><b>مدیرعامل شرکت</b><small>حسین قاسمی</small></div></div><div class="contact-line"><span>☎</span><div><b>تلفن تماس</b><small>۰۲۱-۱۲۳۴۵۶۷۸</small></div></div><div class="contact-line"><span>✉</span><div><b>ایمیل</b><small>info@donyayetech.example</small></div></div></div>
+      <div class="map-card"><div class="map-grid"></div><div class="map-road road-a"></div><div class="map-road road-b"></div><div class="map-pin">⌖</div><div class="map-label">دنیای تکنولوژی<small>موقعیت فروشگاه (نمونه)</small></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark">D<span>T</span></span><span><b>دنیای تکنولوژی</b><small>انتخاب هوشمندانه، خرید مطمئن</small></span></a><p>دنیای تکنولوژی؛ همراه شما برای انتخاب و خرید تجهیزات دیجیتال.</p><div class="socials"><a href="#" aria-label="شبکه اجتماعی">◎</a><a href="#" aria-label="پیام‌رسان">➤</a><a href="#" aria-label="ویدئو">▷</a></div></div><div class="footer-bottom"><span>© تمامی حقوق این وب‌سایت محفوظ است.</span><span>طراحی‌شده با علاقه به دنیای فناوری ✦</span></div></footer>
+
+  <dialog id="loginDialog" class="modal auth-modal">
+    <button class="modal-close" id="authClose" type="button" aria-label="بستن">×</button>
+    <section id="loginPanel">
+      <span class="eyebrow">خوش آمدید</span><h2>Login</h2><p>برای ورود، ایمیل و رمز عبور حساب خود را وارد کنید.</p>
+      <form id="loginForm">
+        <label>Email<input id="loginEmail" type="email" placeholder="example@email.com" autocomplete="email" required></label>
+        <label>Password<input id="loginPassword" type="password" placeholder="رمز عبور" autocomplete="current-password" required></label>
+        <button class="auth-link" id="forgotPassword" type="button">Forgot my password?</button>
+        <button class="primary-btn full-btn" type="submit">Login</button>
+      </form>
+      <p class="auth-switch">حساب ندارید؟ <button class="auth-link" id="toRegister" type="button">Create account</button></p>
+    </section>
+    <section id="registerPanel" hidden>
+      <span class="eyebrow">عضویت در دنیای تکنولوژی</span><h2>Create account</h2><p>برای ساخت حساب، اطلاعات زیر را وارد کنید.</p>
+      <form id="registerForm">
+        <label>Username<input id="registerUsername" type="text" placeholder="نام کاربری دلخواه" autocomplete="username" minlength="3" maxlength="20" required></label>
+        <label>Email<input id="registerEmail" type="email" placeholder="example@email.com" autocomplete="email" required></label>
+        <label>Password<input id="registerPassword" type="password" placeholder="حداقل ۸ کاراکتر" autocomplete="new-password" minlength="8" required></label>
+        <label>Password again<input id="registerPasswordAgain" type="password" placeholder="تکرار رمز عبور" autocomplete="new-password" minlength="8" required></label>
+        <label class="robot-check"><input id="robotCheck" type="checkbox" required> I'm not Robot <small>(گزینه نمادین)</small></label>
+        <button class="primary-btn full-btn" type="submit">Sign in</button>
+      </form>
+      <p class="auth-switch">قبلاً حساب ساخته‌اید؟ <button class="auth-link" id="toLogin" type="button">Login</button></p>
+    </section>
+    <p class="auth-note">نسخه نمایشی آموزشی؛ حساب‌ها فقط در همین مرورگر ذخیره می‌شوند و ورود سروری واقعی نیست.</p>
+  </dialog>
+  <dialog id="profileDialog" class="modal profile-modal">
+    <button class="modal-close" id="profileClose" type="button" aria-label="بستن">×</button>
+    <span class="eyebrow">حساب کاربری شما</span>
+    <h2>پروفایل من</h2>
+    <div class="profile-preview-wrap">
+      <div class="profile-preview" id="profilePreview">E</div>
+      <label class="avatar-upload-btn" for="avatarFile">تغییر تصویر پروفایل</label>
+      <input id="avatarFile" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+    </div>
+    <form id="profileForm">
+      <label>نام کاربری<input id="profileUsername" type="text" minlength="3" maxlength="20" required></label>
+      <label>ایمیل<input id="profileEmail" type="email" disabled></label>
+      <button class="primary-btn full-btn" type="submit">ذخیره تغییرات</button>
+    </form>
+    <button class="profile-logout" id="profileLogout" type="button">خروج از حساب کاربری</button>
+    <p class="auth-note">پروفایل و تصویر فقط در حافظه همین مرورگر ذخیره می‌شوند.</p>
+  </dialog>
+  <dialog id="cartDialog" class="modal"><form method="dialog"><button class="modal-close" aria-label="بستن">×</button><span class="eyebrow">سبد خرید</span><h2>سبد خرید شما</h2><div id="cartItems" class="cart-items">هنوز محصولی اضافه نکرده‌اید.</div><button class="primary-btn full-btn">ادامه خرید</button></form></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <script>
+const products=[
+ {id:1,name:"پردازنده Intel Core i7",desc:"قدرت پردازشی بالا برای کارهای حرفه‌ای",category:"cpu",price:32000000,old:34900000,emoji:"🧠",discount:true},
+ {id:2,name:"کارت گرافیک RTX 580",desc:"تجربه‌ای روان در بازی و طراحی",category:"gpu",price:18000000,old:21000000,emoji:"🎮",discount:true},
+ {id:3,name:"ماوس گیمینگ RGB",desc:"دقت بالا با نورپردازی جذاب",category:"accessory",price:1250000,old:0,emoji:"🖱️",discount:false},
+ {id:4,name:"کیبورد مکانیکی",desc:"کلیدهای دقیق و طراحی خوش‌ساخت",category:"accessory",price:2850000,old:3400000,emoji:"⌨️",discount:true},
+ {id:5,name:"پردازنده Ryzen 5",desc:"انتخابی مناسب برای سیستم‌های قدرتمند",category:"cpu",price:14500000,old:0,emoji:"⚙️",discount:false},
+ {id:6,name:"هدفون بی‌سیم",desc:"صدای شفاف با طراحی راحت",category:"accessory",price:3900000,old:0,emoji:"🎧",discount:false}
+];
+const grid=document.getElementById('productGrid'),search=document.getElementById('searchInput'),filter=document.getElementById('categoryFilter');
+const toman=n=>new Intl.NumberFormat('fa-IR').format(n)+' تومان';
+const ACCOUNT_KEY='dt_demo_accounts_v1', SESSION_KEY='dt_demo_session_v1', CART_PREFIX='dt_demo_cart_';
+let currentUser=null, pendingProductId=null, cart=[];
+function readJSON(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}}
+function getAccounts(){return readJSON(ACCOUNT_KEY,[])}
+function cartKey(){return CART_PREFIX+(currentUser?.email||'guest')}
+function loadCart(){const ids=readJSON(cartKey(),[]);cart=ids.map(id=>products.find(p=>p.id===id)).filter(Boolean);updateCartCount()}
+function saveCart(){localStorage.setItem(cartKey(),JSON.stringify(cart.map(p=>p.id)));updateCartCount()}
+function updateCartCount(){document.getElementById('cartCount').textContent=new Intl.NumberFormat('fa-IR').format(cart.length)}
+function render(){
+ const q=search.value.trim().toLowerCase(),cat=filter.value;
+ const list=products.filter(p=>(cat==='all'||p.category===cat)&&(`${p.name} ${p.desc}`).toLowerCase().includes(q));
+ grid.innerHTML=list.length?list.map(p=>`<article class="product-card"><div class="product-image">${p.discount?'<span class="tag">پیشنهاد ویژه</span>':''}<span class="emoji-product">${p.emoji}</span></div><h3>${p.name}</h3><p>${p.desc}</p><div class="product-bottom"><div class="price">${toman(p.price)}${p.old?`<small><del>${toman(p.old)}</del></small>`:''}</div><button class="add-btn" data-add="${p.id}">افزودن +</button></div></article>`).join(''):'<div class="empty">محصولی با این مشخصات پیدا نشد.</div>';
+}
+render();search.addEventListener('input',render);filter.addEventListener('change',render);
+
+const mobile=document.getElementById('mobileMenu'),hamb=document.getElementById('hamburger');
+hamb.addEventListener('click',()=>{mobile.classList.toggle('show');hamb.classList.toggle('open',mobile.classList.contains('show'));hamb.setAttribute('aria-expanded',mobile.classList.contains('show'))});
+mobile.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobile.classList.remove('show');hamb.classList.remove('open');hamb.setAttribute('aria-expanded','false')}));
+
+const login=document.getElementById('loginDialog'),cartDialog=document.getElementById('cartDialog');
+const loginPanel=document.getElementById('loginPanel'),registerPanel=document.getElementById('registerPanel');
+const loginBtn=document.getElementById('loginBtn');
+function showAuth(mode='login'){
+ loginPanel.hidden=mode!=='login';registerPanel.hidden=mode!=='register';
+ login.showModal();
+}
+function updateAccountUI(){
+ const mark=document.getElementById('profileAvatarMark');
+ if(currentUser){
+  const initial=(currentUser.username||currentUser.email||'U').trim().charAt(0).toLocaleUpperCase('fa-IR');
+  mark.innerHTML=currentUser.avatar?`<img src="${currentUser.avatar}" alt="تصویر پروفایل">`:initial;
+  loginBtn.title=`پروفایل ${currentUser.username||''}`;
+  loginBtn.setAttribute('aria-label','باز کردن پروفایل کاربری');
+ }else{
+  mark.textContent='♙';
+  loginBtn.title='ورود یا ثبت‌نام';
+  loginBtn.setAttribute('aria-label','ورود یا ثبت‌نام');
+ }
+}
+
+function setSession(user){currentUser={email:user.email,username:user.username||user.email.split('@')[0],avatar:user.avatar||''};localStorage.setItem(SESSION_KEY,JSON.stringify({email:user.email}));loadCart();updateAccountUI()}
+function clearSession(){currentUser=null;localStorage.removeItem(SESSION_KEY);loadCart();updateAccountUI()}
+function addProductToCart(productId){
+ const p=products.find(x=>x.id===Number(productId));if(!p)return;
+ cart.push(p);saveCart();toast(`${p.name} به سبد خرید اضافه شد.`);
+}
+function finishAuth(){
+ login.close();updateAccountUI();
+ if(pendingProductId!==null){addProductToCart(pendingProductId);pendingProductId=null}
+}
+grid.addEventListener('click',e=>{
+ const b=e.target.closest('[data-add]');if(!b)return;
+ if(!currentUser){pendingProductId=Number(b.dataset.add);showAuth('login');toast('برای افزودن محصول، ابتدا وارد حساب شوید یا ثبت‌نام کنید.');return}
+ addProductToCart(b.dataset.add);
+});
+const profileDialog=document.getElementById('profileDialog');
+loginBtn.addEventListener('click',()=>{
+ if(!currentUser){showAuth('login');return}
+ document.getElementById('profileUsername').value=currentUser.username||'';
+ document.getElementById('profileEmail').value=currentUser.email||'';
+ renderProfilePreview();
+ profileDialog.showModal();
+});
+document.getElementById('authClose').addEventListener('click',()=>login.close());
+document.getElementById('toRegister').addEventListener('click',()=>showAuth('register'));
+document.getElementById('toLogin').addEventListener('click',()=>showAuth('login'));
+document.getElementById('forgotPassword').addEventListener('click',()=>toast('بازیابی رمز در این نسخه نمایشی به ایمیل متصل نیست.'));
+
+async function hashPassword(password,salt){
+ const enc=new TextEncoder();
+ const key=await crypto.subtle.importKey('raw',enc.encode(password),'PBKDF2',false,['deriveBits']);
+ const bits=await crypto.subtle.deriveBits({name:'PBKDF2',salt:enc.encode(salt),iterations:120000,hash:'SHA-256'},key,256);
+ return [...new Uint8Array(bits)].map(x=>x.toString(16).padStart(2,'0')).join('');
+}
+function makeSalt(){const a=new Uint8Array(16);crypto.getRandomValues(a);return [...a].map(x=>x.toString(16).padStart(2,'0')).join('')}
+document.getElementById('registerForm').addEventListener('submit',async e=>{
+ e.preventDefault();
+ const email=document.getElementById('registerEmail').value.trim().toLowerCase();
+ const username=document.getElementById('registerUsername').value.trim();
+ const password=document.getElementById('registerPassword').value;
+ const again=document.getElementById('registerPasswordAgain').value;
+ if(username.length<3){toast('نام کاربری باید حداقل ۳ کاراکتر باشد.');return}
+ if(getAccounts().some(a=>(a.username||'').toLowerCase()===username.toLowerCase())){toast('این نام کاربری قبلاً انتخاب شده است.');return}
+ if(password.length<8){toast('رمز عبور باید حداقل ۸ کاراکتر باشد.');return}
+ if(password!==again){toast('تکرار رمز عبور با رمز اصلی یکسان نیست.');return}
+ if(!document.getElementById('robotCheck').checked){toast('لطفاً گزینه تأیید را علامت بزنید.');return}
+ const accounts=getAccounts();
+ if(accounts.some(a=>a.email===email)){toast('این ایمیل قبلاً ثبت‌نام کرده است؛ وارد شوید.');showAuth('login');document.getElementById('loginEmail').value=email;return}
+ try{
+  const salt=makeSalt(),passwordHash=await hashPassword(password,salt);
+  const user={email,username,avatar:'',salt,passwordHash,createdAt:new Date().toISOString()};
+  accounts.push(user);localStorage.setItem(ACCOUNT_KEY,JSON.stringify(accounts));
+  setSession(user);e.target.reset();finishAuth();toast('حساب کاربری با موفقیت ساخته شد.');
+ }catch(err){toast('ذخیره حساب در این مرورگر امکان‌پذیر نشد. لطفاً از مرورگر به‌روز استفاده کنید.')}
+});
+document.getElementById('loginForm').addEventListener('submit',async e=>{
+ e.preventDefault();
+ const email=document.getElementById('loginEmail').value.trim().toLowerCase();
+ const password=document.getElementById('loginPassword').value;
+ const user=getAccounts().find(a=>a.email===email);
+ if(!user){toast('حسابی با این ایمیل پیدا نشد؛ ابتدا ثبت‌نام کنید.');showAuth('register');document.getElementById('registerEmail').value=email;return}
+ try{
+  const hash=await hashPassword(password,user.salt);
+  if(hash!==user.passwordHash){toast('ایمیل یا رمز عبور اشتباه است.');return}
+  setSession(user);e.target.reset();finishAuth();toast('با موفقیت وارد حساب شدید.');
+ }catch(err){toast('ورود در این مرورگر انجام نشد.')}
+});
+let pendingAvatarData='';
+function renderProfilePreview(){
+ const preview=document.getElementById('profilePreview');
+ const username=document.getElementById('profileUsername').value.trim()||currentUser?.username||'U';
+ const avatar=pendingAvatarData||currentUser?.avatar||'';
+ preview.innerHTML=avatar?`<img src="${avatar}" alt="پیش‌نمایش تصویر پروفایل">`:username.charAt(0).toLocaleUpperCase('fa-IR');
+}
+document.getElementById('profileUsername').addEventListener('input',renderProfilePreview);
+document.getElementById('avatarFile').addEventListener('change',e=>{
+ const file=e.target.files?.[0];if(!file)return;
+ if(file.size>2*1024*1024){toast('حجم تصویر باید کمتر از ۲ مگابایت باشد.');e.target.value='';return}
+ if(!['image/jpeg','image/png','image/webp'].includes(file.type)){toast('فقط تصویر JPG، PNG یا WEBP قابل انتخاب است.');e.target.value='';return}
+ const reader=new FileReader();
+ reader.onload=()=>{pendingAvatarData=reader.result;renderProfilePreview()};
+ reader.readAsDataURL(file);
+});
+document.getElementById('profileForm').addEventListener('submit',e=>{
+ e.preventDefault();if(!currentUser)return;
+ const username=document.getElementById('profileUsername').value.trim();
+ if(username.length<3){toast('نام کاربری باید حداقل ۳ کاراکتر باشد.');return}
+ const accounts=getAccounts();
+ if(accounts.some(a=>a.email!==currentUser.email&&(a.username||'').toLowerCase()===username.toLowerCase())){toast('این نام کاربری متعلق به حساب دیگری است.');return}
+ const index=accounts.findIndex(a=>a.email===currentUser.email);
+ if(index<0)return;
+ accounts[index].username=username;
+ if(pendingAvatarData)accounts[index].avatar=pendingAvatarData;
+ try{
+  localStorage.setItem(ACCOUNT_KEY,JSON.stringify(accounts));
+  currentUser.username=username;currentUser.avatar=accounts[index].avatar||'';
+  pendingAvatarData='';document.getElementById('avatarFile').value='';
+  updateAccountUI();renderProfilePreview();profileDialog.close();toast('پروفایل با موفقیت ذخیره شد.');
+ }catch(err){toast('فضای ذخیره‌سازی مرورگر کافی نیست؛ تصویر کوچک‌تری انتخاب کنید.')}
+});
+document.getElementById('profileClose').addEventListener('click',()=>{pendingAvatarData='';profileDialog.close()});
+document.getElementById('profileLogout').addEventListener('click',()=>{
+ clearSession();pendingAvatarData='';profileDialog.close();toast('از حساب کاربری خارج شدید.');
+});
+
+document.getElementById('cartBtn').addEventListener('click',()=>{
+ document.getElementById('cartItems').innerHTML=cart.length?cart.map(p=>`<div class="cart-row"><span>${p.name}</span><b>${toman(p.price)}</b></div>`).join(''):'هنوز محصولی اضافه نکرده‌اید.';
+ cartDialog.showModal();
+});
+document.querySelector('#cartDialog form').addEventListener('submit',e=>{e.preventDefault();cartDialog.close();toast('این فروشگاه نسخه نمایشی است؛ ثبت سفارش آنلاین فعال نیست.')});
+let toastTimer;function toast(msg){const el=document.getElementById('toast');el.textContent=msg;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
+// Restore the last signed-in account and its cart on every visit to this same browser.
+(function restoreSession(){
+ const saved=readJSON(SESSION_KEY,null);
+ if(saved?.email){const user=getAccounts().find(a=>a.email===saved.email);if(user)currentUser={email:user.email,username:user.username||user.email.split('@')[0],avatar:user.avatar||''};else localStorage.removeItem(SESSION_KEY)}
+ loadCart();updateAccountUI();
+})();
+
+
+// Navigation behaves like separate pages: only the selected menu view is visible.
+(function(){
+  const main=document.querySelector('main');
+  const home=document.getElementById('home');
+  const trust=document.querySelector('.trust-strip');
+  const agencies=document.getElementById('agencies');
+  const toolbar=document.createElement('div');
+  toolbar.id='viewToolbar';
+  toolbar.hidden=true;
+  toolbar.innerHTML='<div><h1 id="viewTitle"></h1><p id="viewSubtitle">دنیای تکنولوژی | انتخاب هوشمند، خرید مطمئن</p></div><button type="button" id="backHome">← بازگشت به خانه</button>';
+  main.prepend(toolbar);
+  const title=document.getElementById('viewTitle');
+  const back=document.getElementById('backHome');
+  const views={
+    home:{title:'خانه',subtitle:'به دنیای تکنولوژی خوش آمدید'},
+    products:{title:'محصولات',subtitle:'محصول مورد نظرت را پیدا کن و جزئیاتش را ببین'},
+    discounts:{title:'محصولات تخفیف‌دار',subtitle:'پیشنهادهای ویژه و فرصت‌های خرید'},
+    agencies:{title:'نمایندگی‌ها',subtitle:'راه‌های دسترسی و دریافت مشاوره حضوری'},
+    warranty:{title:'گارانتی و خدمات',subtitle:'شرایط ضمانت و خدمات پس از فروش'},
+    address:{title:'آدرس و ارتباط با ما',subtitle:'راه‌های تماس و نشانی فروشگاه'}
+  };
+  const sections=[...main.querySelectorAll(':scope > section')];
+  function showView(key){
+    if(!views[key]) key='home';
+    sections.forEach(s=>s.classList.remove('view-active'));
+    agencies.classList.remove('show-agency','show-warranty');
+    if(key==='home'){
+      home.classList.add('view-active');
+      trust.classList.add('view-active');
+    }else if(key==='warranty'){
+      document.getElementById('warranty').classList.add('view-active');
+    }else if(key==='agencies'){
+      agencies.classList.add('view-active','show-agency');
+    }else{
+      const target=document.getElementById(key);
+      if(target) target.classList.add('view-active');
+    }
+    title.textContent=views[key].title;
+    toolbar.querySelector('p').textContent=views[key].subtitle;
+    toolbar.hidden=(key==='home');
+    document.querySelectorAll('.desktop-nav a').forEach(a=>{
+      a.classList.toggle('active',a.getAttribute('href')==='#'+key || (key==='warranty'&&a.getAttribute('href')==='#warranty'));
+    });
+    document.querySelectorAll('.mobile-menu a').forEach(a=>{
+      a.style.color=(a.getAttribute('href')==='#'+key || (key==='warranty'&&a.getAttribute('href')==='#warranty'))?'#83b8ff':'';
+    });
+    const menu=document.getElementById('mobileMenu');
+    const hamburger=document.getElementById('hamburger');
+    menu.classList.remove('show');
+    hamburger.classList.remove('open');
+    hamburger.setAttribute('aria-expanded','false');
+    window.scrollTo({top:0,behavior:'smooth'});
+    history.replaceState(null,'','#'+key);
+  }
+  function keyFromHash(hash){
+    const id=(hash||'').replace('#','');
+    if(id==='warranty') return 'warranty';
+    if(views[id]) return id;
+    return 'home';
+  }
+  document.addEventListener('click',e=>{
+    const a=e.target.closest('a[href^="#"]');
+    if(!a) return;
+    const key=keyFromHash(a.getAttribute('href'));
+    if(!views[key]) return;
+    e.preventDefault();
+    showView(key);
+  });
+  back.addEventListener('click',()=>showView('home'));
+  const initial=keyFromHash(location.hash);
+  showView(initial);
+})();
+
+
+// Rotating, clearly-labelled demo advertisements: first appears after 2s;
+// after the visitor closes it, another random promotion appears 30s later.
+(function companyAdRotation(){
+ const overlay=document.getElementById('adNotice');
+ if(!overlay) return;
+ const title=overlay.querySelector('#adNoticeTitle');
+ const body=overlay.querySelector('#adNoticeText');
+ const action=overlay.querySelector('#adNoticeAction');
+ const close=overlay.querySelector('#adNoticeClose');
+ const ads=[
+  {title:'یک پیشنهاد تازه برای شما!',text:'برای آشنایی با خدمات و پیشنهادهای ویژه دنیای تکنولوژی، همراه ما باشید.',button:'مشاهده پیشنهاد',href:'#home'},
+  {title:'خرید هوشمند، انتخاب مطمئن',text:'محصولات دیجیتال را بررسی کنید و با اطلاعات کامل‌تر انتخاب کنید.',button:'دیدن محصولات',href:'#products'},
+  {title:'پشتیبانی همیشه همراه شماست',text:'برای دریافت راهنمایی و آشنایی با خدمات پس از فروش، بخش ارتباط با ما را ببینید.',button:'ارتباط با ما',href:'#address'},
+  {title:'از پیشنهادهای ویژه جا نمانید',text:'بخش محصولات تخفیف‌دار دنیای تکنولوژی را از دست ندهید.',button:'مشاهده تخفیف‌ها',href:'#discounts'}
+ ];
+ let timer=null,last=-1;
+ function pickAd(){let n=Math.floor(Math.random()*ads.length);if(ads.length>1&&n===last)n=(n+1+Math.floor(Math.random()*(ads.length-1)))%ads.length;last=n;return ads[n]}
+ function showAd(){const ad=pickAd();title.textContent=ad.title;body.textContent=ad.text;action.textContent=ad.button;action.setAttribute('href',ad.href);overlay.classList.add('ad-visible');overlay.setAttribute('aria-hidden','false')}
+ function hideAd(){overlay.classList.remove('ad-visible');overlay.setAttribute('aria-hidden','true');if(timer)clearTimeout(timer);timer=setTimeout(showAd,30000)}
+ close.addEventListener('click',hideAd);
+ action.addEventListener('click',()=>{overlay.classList.remove('ad-visible');overlay.setAttribute('aria-hidden','true');if(timer)clearTimeout(timer);timer=setTimeout(showAd,30000)});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&overlay.classList.contains('ad-visible'))hideAd()});
+ setTimeout(showAd,2000);
+})();
+
+</script>
+</body>
+</html>
